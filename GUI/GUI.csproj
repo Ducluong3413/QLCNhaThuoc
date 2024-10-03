@@ -98,11 +98,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="fadd_nhacungcap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fadd_nhacungcap.Designer.cs">
+      <DependentUpon>fadd_nhacungcap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fadd_nhanvien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fadd_nhanvien.Designer.cs">
+      <DependentUpon>fadd_nhanvien.cs</DependentUpon>
+    </Compile>
     <Compile Include="fDangNhap.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fDangNhap.Designer.cs">
       <DependentUpon>fDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNhaCungCap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhaCungCap.Designer.cs">
+      <DependentUpon>fNhaCungCap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fNhanVien.Designer.cs">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="fTienLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fTienLuong.Designer.cs">
+      <DependentUpon>fTienLuong.cs</DependentUpon>
     </Compile>
     <Compile Include="fTrangChu.cs">
       <SubType>Form</SubType>
@@ -123,8 +153,24 @@
     <Compile Include="test.Designer.cs">
       <DependentUpon>test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utils.cs" />
+    <EmbeddedResource Include="fadd_nhacungcap.resx">
+      <DependentUpon>fadd_nhacungcap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fadd_nhanvien.resx">
+      <DependentUpon>fadd_nhanvien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fDangNhap.resx">
       <DependentUpon>fDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNhaCungCap.resx">
+      <DependentUpon>fNhaCungCap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fNhanVien.resx">
+      <DependentUpon>fNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fTienLuong.resx">
+      <DependentUpon>fTienLuong.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="fTrangChu.resx">
       <DependentUpon>fTrangChu.cs</DependentUpon>

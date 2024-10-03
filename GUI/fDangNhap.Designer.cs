@@ -65,21 +65,21 @@ namespace GUI
             this.tb_Sdt.BackColor = System.Drawing.Color.Aqua;
             this.tb_Sdt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_Sdt.Location = new System.Drawing.Point(29, 255);
-            this.tb_Sdt.Multiline = true;
             this.tb_Sdt.Name = "tb_Sdt";
-            this.tb_Sdt.Size = new System.Drawing.Size(169, 40);
+            this.tb_Sdt.Size = new System.Drawing.Size(169, 22);
             this.tb_Sdt.TabIndex = 3;
+            this.tb_Sdt.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Sdt_KeyDown);
             // 
             // tb_Matkhau
             // 
             this.tb_Matkhau.BackColor = System.Drawing.Color.Aqua;
             this.tb_Matkhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tb_Matkhau.Location = new System.Drawing.Point(29, 317);
-            this.tb_Matkhau.Multiline = true;
             this.tb_Matkhau.Name = "tb_Matkhau";
             this.tb_Matkhau.PasswordChar = '*';
-            this.tb_Matkhau.Size = new System.Drawing.Size(169, 40);
+            this.tb_Matkhau.Size = new System.Drawing.Size(169, 22);
             this.tb_Matkhau.TabIndex = 4;
+            this.tb_Matkhau.KeyDown += new System.Windows.Forms.KeyEventHandler(this.tb_Matkhau_KeyDown);
             // 
             // button1
             // 
@@ -127,6 +127,7 @@ namespace GUI
             this.Name = "fDangNhap";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "fDangNhap";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.fDangNhap_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

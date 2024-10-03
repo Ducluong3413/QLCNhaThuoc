@@ -12,7 +12,7 @@ namespace GUI
 {
     public partial class test : Form
     {
-        private DatabaseManager dbManager = new DatabaseManager();  
+        private BusinessLogic dbManager = new BusinessLogic();  
         public test()
         {
             InitializeComponent();
